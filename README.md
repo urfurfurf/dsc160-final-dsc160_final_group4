@@ -22,7 +22,7 @@ This is talking about using the art transfer tech by Google to let you apply fam
 2.https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398
 This gives us some idea on Neural Style Transfer: Creating Art with Deep Learning using tf.keras and eager execution
 
-3. http://headforart.com/2016/12/16/how-artists-use-colour/
+3.http://headforart.com/2016/12/16/how-artists-use-colour/
 This is talking about the importance of color for the artists. And this gives us the idea that we can change the color of those artists’ artworks and then put them into our Van-Gogh model for transferring to Van Gogh art style. And we want to see the influence on changing color on the original artworks during our process of transferring to Van Gogh style. (see whether it will generate different artworks after transfering) 
 
 4.https://github.com/simulacre7/tensorflow-IPythonNotebook/blob/master/neural-style/neural_style.ipynb
