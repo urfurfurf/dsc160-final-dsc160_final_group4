@@ -11,19 +11,24 @@ Project Team Members:
 
 ## Abstract
 
-(10 points) 
+ For the final project, we want to transfer a couple of the most famous paintings by using the tensorflow algorithm. Then, we add Van Gogh oil painting style on to those images to see how those famous paintings changed. For the methods and techniques, we want to use the deep photo style tensorflow, neural style, generative adversarial networks to generate the final result. Firstly, we will scrape all the pictures from Van Gogh and select the oil paintings from Van Gogh. Secondly, we will choose some representative artworks from other famous artists, for example Leonardo da Vinci, and select a couple images. Then, we divide 2 groups, one is transfer those images to process the deep photo style and the other one is not doing any transformation. Thirdly, we will combine the paintings with the style from Van Gogh’s to generate 2 new groups of paintings and contrast the new paintings from 2 groups. For the results, we hope the system will pick the traits of Van Gogh’s artworks and then transfer those representative artworks from other famous artists and other real-world photos to Van Gogh style artworks. Our results will be images of those famous paintings in Van Gogh style.
 
-For the project proposal, please write a short abstact addressing the questions below. You need to replace the entire contents of this section with one to two paragraphs addressing the following:
+By using all the artworks, it would be challenging to truly define his art style due to his many works. It is hard for us to pick a suitable painting and we want to make sure the result is not awkward. To expand the topics from the lectures, we will continue the research for lecture 13 of the style transfer and deep photo style transfer. In our project, we will first process the deep photo style transfer and then process the style transfer. For the training data we select, we will have 2 groups, one is the original version and the other version is using the deep photo style transfer. Then we put both versions into the style transfer and both transfer to Van-gogh style. And then we will see whether there exist any differences between 2 groups. We will compare those results on the differences and focus on how the traits we add are special in the painting. The interesting part about this project is that we can see some of the most famous paintings in the world in van Gogh’s style, which can be interesting as there can be some interesting combinations of styles and objects. By making some images “van Gogh” like, we can better understand van Gogh’s artistic styles and how he would draw the objects that he had never tried to draw.
+Reference:
 
-- What is your concept for a generative art project? 
-- What methods/networks/techniques will you employ (include links to technical precedents/code bases)
-- What training data (if any) will you use for your project? 
-- What kind of results do you hope that your system will produce?
-- How will you present your result/what form will your output take?
-- What if any challenges to you think may arise as you are working with this?
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
-- List three papers / art projects that are references for this work.
+1.https://www.theverge.com/2020/4/2/21204498/art-transfer-google-artists-style-photos.
+This is talking about using the art transfer tech by Google to let you apply famous artists’ styles to your own works
+
+2.https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398
+This gives us some idea on Neural Style Transfer: Creating Art with Deep Learning using tf.keras and eager execution
+
+3. http://headforart.com/2016/12/16/how-artists-use-colour/
+This is talking about the importance of color for the artists. And this gives us the idea that we can change the color of those artists’ artworks and then put them into our Van-Gogh model for transferring to Van Gogh art style. And we want to see the influence on changing color on the original artworks during our process of transferring to Van Gogh style. (see whether it will generate different artworks after transfering) 
+
+4.https://github.com/simulacre7/tensorflow-IPythonNotebook/blob/master/neural-style/neural_style.ipynb
+This is a github project for combing one paint style into another artwork. We believe we will do the similar steps as this project.
+
+
 
 ## Data and Model
 
